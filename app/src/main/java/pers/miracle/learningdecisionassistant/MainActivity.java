@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                         if (textInputEditText.getText().toString().equals("")) {
                             //删除当前EditText
                             linearLayoutTextInputEditText.removeViewAt(i);
-
+                            i--;
 
                         }
                     }
